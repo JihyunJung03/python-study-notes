@@ -41,3 +41,19 @@ def square(a=0,b=1):
 
 square(2,4) # 16
 square() # 0
+
+# return을 사용하여 함수를 실행시켜보았다.
+# 변수를 사용하는 경우, 사용하지 않는 경우를 나누어 보았다.
+
+def tax_calc(money):
+  return money * 0.35 # 함수 바깥으로 보낸다
+
+def pay_tax(tax):
+  print("thank you for paying",tax)
+
+#1. 변수를 선언하는 방법
+to_pay = tax_calc(1500000) #money 
+pay_tax(to_pay)
+
+#2. 변수를 선언하지 않는 방법
+pay_tax(tax_calc(1500000))
