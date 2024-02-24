@@ -57,3 +57,31 @@ pay_tax(to_pay)
 
 #2. 변수를 선언하지 않는 방법
 pay_tax(tax_calc(1500000))
+
+my_name = "jihyun"
+my_age = "20"
+my_color_eyes = "brown"
+
+print(f"Hello I'm {my_name}, I have {my_age} years in the earth, {my_color_eyes} is my eye color")
+
+#f""는 format을 사용한다.
+#f를 사용함으로써 string과 변수를 같이 사용할 수 있다.
+#f를 사용할 때는 변수를 {}로 감싸서 사용한다.
+#f를 사용할 때는 변수를 ,로 감싸서 사용한다.
+#f를 사용할 때는 변수를 +로 감싸서 사용한다.
+#return 키워드는 함수를 끝내기 때문에 return 이후의 코드는 실행되지 않는다.
+
+def make_juice(fruit):
+  return f"{fruit}+🥤"
+
+def add_ice(juice):
+  return f"{juice}+🧊"
+
+def add_sugar(iced_juice):
+  return f"{iced_juice}+🍬"
+
+juice = make_juice("🍎") #make_juice 함수를 실행한다.
+cold_juice = add_ice(juice) #add_ice 함수를 실행한다.
+perfect_juice = add_sugar(cold_juice) #add_sugar 함수를 실행한다.
+
+print(perfect_juice)#perfect_juice를 출력한다.
