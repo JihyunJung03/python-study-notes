@@ -53,3 +53,7 @@ else: #아니면
   print("else") #Else를 출력한다.
 
 # winner가 50, if 조건이 false, 3가지 elif 중 true인 elif3이 출력된다.
+  
+
+
+# And,Or 사용법
