@@ -114,14 +114,14 @@ else :
 # 60세라고 입력 Birthday party!가 뜸.
 
 
-# Ture and True == True
-# False and Ture == False
+# True and True == True
+# False and True == False
 # True and False == False
 # False and False == False
 # and는 두조건 모두 true여야 조건 성립이 된다.
 
-# Ture or True == True
+# True or True == True
 # True or False == True
-# Flase or True == Ture
+# Flase or True == True
 # False or False == False
 # or는 오로지 한쪽이 true여도 괜찮다

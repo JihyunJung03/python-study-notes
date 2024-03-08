@@ -65,16 +65,16 @@ print("Birthday party!")
 else :
 print("Go ahead!") # 60세라고 입력 Birthday party!가 뜸.
 
-Ture and True == True<br/>
-False and Ture == False<br/>
+True and True == True<br/>
+False and True == False<br/>
 True and False == False<br/>
 False and False == False<br/>
 
 ### and는 두조건 모두 true여야 조건 성립이 된다.
 
-Ture or True == True<br/>
+True or True == True<br/>
 True or False == True<br/>
-Flase or True == Ture<br/>
+Flase or True == True<br/>
 False or False == False<br/>
 
 ### or는 오로지 한쪽이 true여도 괜찮다.
