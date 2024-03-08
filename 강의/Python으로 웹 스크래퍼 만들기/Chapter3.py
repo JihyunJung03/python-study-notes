@@ -57,3 +57,71 @@ else: #아니면
 
 
 # And,Or 사용법
+
+# And는 양쪽 조건 모두 충족되어야 한다.
+# Or은 둘 중 하나가 true여야 한다.
+# input("") - input은 오직 하나의 argument만 받는다.
+# input("How old are you?") - 단순한 print가 아니다. value를 print하기도 하지만 응답을 기다리고 있다.
+# console창에서 보면 How old are you?라고 뜨는데, 이후에 정지를 누르면 함수와 프로그램이 끝난다. 
+# 하지만 멈춤 버튼을 누르지 않는다면 실행 상태로 대답을 기다린다. 해당 대답에 입력하고 엔터 누르면 그제야 프로그램이 끝난다.
+
+# 함수의 반환 값을 변수로 저장해둔다.
+age = input("How old are you?") # 36 입력 후 엔터
+
+print("user answer", age) 
+# user answer 36
+
+
+type(age) #type 함수
+
+print(type(age)) # age변수의 type을 print해서 어떤 type인지 확인해 본다. <class 'str'> 로 나옴
+# 보는 것처럼 age 변수의 type이 'str(string)'인 것을 확인할 수 있다.
+
+age = input("How old are you?")
+print("user answer", age)  # type이 string으로 인식된다.
+
+age = int(input("How old are you?")) # int는 user가 작성한 string을 받고, int는 그 string을 숫자로 바꾸어 준다.
+
+
+#and는 if와 elif에 모두 적용할 수 있다. 양쪽 부분이 모두 true여야한다.
+
+if age < 18 :
+	print("You can't drink.")
+elif age > 18 and age < 35 :
+	print("You drink beer!") # 동시에 두 가지 조건을 확인해 준다.
+else :
+	print("Go ahead!")
+# 18세 초과인 사람들을 나타냄, 즉 18세와 35세는 포함되지 않음
+
+
+if age < 18 :
+	print("You can't drink.")
+elif age >= 18 and age <= 35 :
+	print("You drink beer!") # 동시에 두 가지 조건을 확인해 준다.
+else :
+	print("Go ahead!")
+# 18보다 크거나 같은지 따라서 18세 이상의 사람들을 잡아냄
+
+
+if age < 18 :
+	print("You can't drink.")
+elif age >= 18 and age <= 35 :
+	print("You drink beer!") # and는 양쪽 모두 true여야 한다. 동시에 두가지 조건을 확인해줌 
+elif age == 60 or age == 70 : # or는 둘중 하나가 true여야 한다.
+	print("Birthday party!")
+else :
+	print("Go ahead!")
+# 60세라고 입력 Birthday party!가 뜸.
+
+
+# Ture and True == True
+# False and Ture == False
+# True and False == False
+# False and False == False
+# and는 두조건 모두 true여야 조건 성립이 된다.
+
+# Ture or True == True
+# True or False == True
+# Flase or True == Ture
+# False or False == False
+# or는 오로지 한쪽이 true여도 괜찮다
