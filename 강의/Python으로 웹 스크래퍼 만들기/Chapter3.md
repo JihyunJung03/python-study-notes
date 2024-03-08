@@ -53,8 +53,8 @@ if age < 18 :
 elif age > 18 and age < 35 :
   print("You drink beer!")
 # 동시에 두 가지 조건을 확인해 준다.
-else :<br/>
-  print("Go ahead!") <br/>
+else :
+  print("Go ahead!")
 # 18세 초과인 사람들을 나타냄, 즉 18세와 35세는 포함되지 않는다.
 ```
 
