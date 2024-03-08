@@ -33,16 +33,17 @@
 
 ### type(age) type 함수
 
-print(type(age))<br/>
-age변수의 type을 print해서 어떤 type인지 확인해 본다.<br/>
-age 변수의 type이 'str(string)'인 것을 확인할 수 있다.<br/>
+```py
+print(type(age))
+# age변수의 type을 print해서 어떤 type인지 확인해 본다.
+# age 변수의 type이 'str(string)'인 것을 확인할 수 있다.
 
-age = input("How old are you?")<br/>
-print("user answer", age) <br/>
-type이 string으로 인식된다.<br/>
+age = input("How old are you?")
+  print("user answer", age) # type이 string으로 인식된다.
 
-age = int(input("How old are you?"))<br/>
-int는 user가 작성한 string을 받고, int는 그 string을 숫자로 바꾸어 준다.<br/>
+age = int(input("How old are you?"))
+# int는 user가 작성한 string을 받고, int는 그 string을 숫자로 바꾸어 준다.
+```
 
 ### and는 if와 elif에 모두 적용할 수 있다. 양쪽 부분이 모두 true여야한다.
 
