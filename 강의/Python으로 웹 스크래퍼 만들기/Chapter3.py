@@ -111,7 +111,7 @@ elif age == 60 or age == 70 : # or는 둘중 하나가 true여야 한다.
 	print("Birthday party!")
 else :
 	print("Go ahead!")
-# 60세라고 입력 Birthday party!가 뜸.
+# 60세라고 입력 Birthday party!가 뜬다.
 
 
 # True and True == True
