@@ -18,7 +18,7 @@
 
 ```py
 def tax_calc(money):
-  return money \* 0.35
+  return money * 0.35
 # 함수 바깥으로 보낸다.
 def pay_tax(tax):
   print("thank you for paying",tax)

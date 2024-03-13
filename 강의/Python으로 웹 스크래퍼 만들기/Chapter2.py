@@ -43,10 +43,10 @@ square(2,4) # 16
 square() # 0
 
 # return을 사용하여 함수를 실행시켜보았다.
-# 변수를 사용하는 경우, 사용하지 않는 경우를 나누어 보았다.
+# 변수를 사용하는 경우, 사용하지 않는 경우를 나누었다.
 
 def tax_calc(money):
-  return money * 0.35 # 함수 바깥으로 보낸다
+  return money * 0.35 # 함수 바깥으로 보낸다.
 
 def pay_tax(tax):
   print("thank you for paying",tax)
