@@ -28,7 +28,7 @@ def pay_tax(tax):
 
 ```py
 to_pay = tax_calc(1500000) # money를 받음
-pay_tax(to_pay) #to_pay에서 계산된 값을 받아서 pay_tax를 실행시킴
+pay_tax(to_pay) #to_pay에서 계산된 값을 받아서 pay_tax를 실행시킨다.
 ```
 
 4. 변수를 선언하지 않는 방법<br/>
