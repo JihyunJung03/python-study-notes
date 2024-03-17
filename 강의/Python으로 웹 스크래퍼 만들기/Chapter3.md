@@ -95,4 +95,64 @@ False and False == False<br/>
 True or True == True<br/>
 True or False == True<br/>
 Flase or True == True<br/>
-False or False == False
+False or False == False<br/>
+
+# randint 사용법
+
+### 랜덤한 숫자 맞추기
+
+```py
+user_choice = int(input("Choose number."))
+pc_choice = 50
+
+흐름제어 Control flow
+if user_choice == pc_chioce: # 동일한 경우
+	print("You won!")
+elif user_choice > pc_choice: # user가 pc보다 큰 경우
+	print("Lower!")
+elif user_choice < pc_choice: # user가 pc보다 작은 경우
+	print("Higher!")
+```
+
+```py
+user_choice = int(input("Choose number."))
+pc_choice = random.randint(1,50)
+
+# 이 경우 동작하지 않는다. 이유는 random이라는 이름이 지정되지 않았기 때문이다.
+# 즉 random은 모듈 이름이기 때문.
+
+흐름제어 Control flow
+if user_choice == pc_chioce: # 동일한 경우
+	print("You won!")
+elif user_choice > pc_choice: # user가 pc보다 큰 경우
+	print("Lower!")
+elif user_choice < pc_choice: # user가 pc보다 작은 경우
+	print("Higher!")
+```
+
+```py
+from random import randint
+user_choice = int(input("Choose number."))
+pc_choice = randint(1,50)
+
+# random이 모듈의 이름이니까 random 모듈에서 from randint function을 import 해준다.
+# 'from 이 모듈에서 이 함수를 import 해줘'
+
+# amdom 모듈이 Python Standard Library에 기본적으로 포함되어 있다.
+
+# randint(a,b) 이 function은 random한 정수 N을 반환한다.
+
+# 즉 첫번째 parameter a는 N보다 작거나 같고, N은 두번째 parameter b보다 작거나 같다.
+
+
+if user_choice == pc_chioce: # 동일한 경우
+	print("You won!")
+elif user_choice > pc_choice: # user가 pc보다 큰 경우
+	print("Lower! Computer chose", pc_choice)
+elif user_choice < pc_choice: # user가 pc보다 작은 경우
+	print("Higher! Computer chose", pc_choice)
+
+결과 50을 입력했을때
+Lower! Computer chose 44
+
+```
