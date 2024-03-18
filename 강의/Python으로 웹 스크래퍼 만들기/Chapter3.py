@@ -176,5 +176,5 @@ elif user_choice > pc_choice: # user가 pc보다 큰 경우
 elif user_choice < pc_choice: # user가 pc보다 작은 경우
 	print("Higher! Computer chose", pc_choice) 
 
-#결과 50을 입력했을때
-#Lower! Computer chose 44
+#50을 입력했을때
+#결과 Lower! Computer chose 44
