@@ -145,7 +145,7 @@ elif user_choice < pc_choice: # user가 pc보다 작은 경우
 user_choice = int(input("Choose number."))
 pc_choice = random.randint(1,50) 
 # 이 경우 동작하지 않는다. 이유는 random이라는 이름이 지정되지 않았기 때문이다.
-# 즉 random은 모듈 이름이기 때문.
+# 즉 random은 모듈 이름이기 때문
 
 if user_choice == pc_chioce: # 동일한 경우
 	print("You won!")
@@ -178,3 +178,5 @@ elif user_choice < pc_choice: # user가 pc보다 작은 경우
 
 #50을 입력했을때
 #결과 Lower! Computer chose 44
+	
+
