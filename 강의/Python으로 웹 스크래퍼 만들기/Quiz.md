@@ -270,7 +270,7 @@ Day 6
 
 7. 클래스 메소드가 받는 첫 번째 인자는 무엇인가? - 클래스의 인스턴스에 대한 참조(A reference to the instance of the class)
 
-8. Human("nico")를 만들려면 Human의 init 메소드는 어떻게 보여야 하는가? - __init__(self, name)
+8. Human("nico")를 만들려면 Human의 init 메소드는 어떻게 보여야 하는가? __init__(self, name)
 
 9. 클래스의 인스턴스를 출력하려고 할 때 파이썬이 자동으로 호출하는 메소드는 무엇인가? False
 
@@ -281,17 +281,12 @@ Day 6
 
 11: 상속을 왜 사용하는가? - 많은 클래스들 간에 공통 속성 및 메소드를 공유하기 위해
 
-12: Woman 클래스가 Human 클래스를 상속하도록 하려면 어떻게 해야 하는가?
+12: Woman 클래스가 Human 클래스를 상속하도록 하려면 어떻게 해야 하는가?  class Woman(Human)
 
-정답: class Woman(Human)
-
-13: super()는 무엇을 가리키는가?
-
-정답: 부모 클래스(Parent class)
+13: super()는 무엇을 가리키는가? 부모 클래스(Parent class)
 
 14: 클래스가 다른 클래스를 상속할 때 무엇을 상속하는가?
-
-정답: 메소드, 속성(Methods, properties)
+  메소드, 속성(Methods, properties)
 
 15: Woman 및 Man 클래스가 Human의 하위 클래스인 경우 Woman이 Human에 없는 고유한 메소드를 가질 수 있고 또한 Man과는 다른 속성을 가질 수 있는가? - True
 
