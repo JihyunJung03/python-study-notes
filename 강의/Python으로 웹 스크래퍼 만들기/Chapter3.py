@@ -134,7 +134,7 @@ user_choice = int(input("Choose number."))
 pc_choice = 50
 
 # 흐름제어 Control flow
-if user_choice == pc_chioce: # 동일한 경우
+if user_choice == pc_choice: # 동일한 경우
 	print("You won!")
 elif user_choice > pc_choice: # user가 pc보다 큰 경우
 	print("Lower!")
@@ -143,11 +143,11 @@ elif user_choice < pc_choice: # user가 pc보다 작은 경우
 
 
 user_choice = int(input("Choose number."))
-pc_choice = random.randint(1,50) 
+# pc_choice = random.randint(1,50) 
 # 이 경우 동작하지 않는다. 이유는 random이라는 이름이 지정되지 않았기 때문이다.
 # 즉 random은 모듈 이름이기 때문
 
-if user_choice == pc_chioce: # 동일한 경우
+if user_choice == pc_choice: # 동일한 경우
 	print("You won!")
 elif user_choice > pc_choice: # user가 pc보다 큰 경우
 	print("Lower!")
@@ -169,14 +169,14 @@ pc_choice = randint(1,50)
 # 즉 첫번째 parameter a는 N보다 작거나 같고, N은 두번째 parameter b보다 작거나 같다.
 
 
-if user_choice == pc_chioce: # 동일한 경우
+if user_choice == pc_choice: # 동일한 경우
 	print("You won!")
 elif user_choice > pc_choice: # user가 pc보다 큰 경우
 	print("Lower! Computer chose", pc_choice)
 elif user_choice < pc_choice: # user가 pc보다 작은 경우
 	print("Higher! Computer chose", pc_choice) 
 
-#50을 입력했을때
-#결과 Lower! Computer chose 44
+# 50을 입력했을때
+# 결과 Lower! Computer chose 44
 	
 
