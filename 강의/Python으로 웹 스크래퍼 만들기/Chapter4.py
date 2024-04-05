@@ -33,8 +33,8 @@ number = (5, 3, 1, 5, 7, "True", True)
 # number.count와 index만 있다.
 
 # 4. Dictionary
-# 중괄호를 사용하여 만든다. tuple도 가능하다.
-# 데이터 수정 및 업데이트 가능하다.
+# 중괄호를 사용하여 만들며 tuple도 가능하다.
+# 데이터 수정 및 업데이트가 가능하다.
 
 player = {
   'name' : "nico",
