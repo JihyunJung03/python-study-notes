@@ -69,7 +69,7 @@ print(days[0])
 
 days =("Mon","Tue","Wed")
 print(days[-1])
-# 결과: Wed 튜플,리스트 둘다 0부터 시작하는 것 대신에 -1로 시작할 수 있다.
+# 결과: Wed 튜플, 리스트 둘다 0부터 시작하는 것 대신에 -1로 시작할 수 있다.
 
 
 ### Dictionary
@@ -96,7 +96,7 @@ player = {
 print(player.get('age'))
 # 결과 : 12
 
-# 인덱스에서는 get[0] 이런식으로 적어야했다. 정렬되어있으니까.
+# 인덱스에서는 get[0] 이런식으로 적어야했다. 정렬되어 있기 때문이다.
 
 player = {
 	'name' : 'nico',
