@@ -86,7 +86,7 @@ player = {
 print(player)
 # 결과 : {'name' : 'nico', 'age': 12,'alive': True }
 
-print(player.methods) # methods에 get등 사용가능
+print(player.methods) # methods에 get등 사용가능하다.
 
 player = {
 	'name' : 'nico',
