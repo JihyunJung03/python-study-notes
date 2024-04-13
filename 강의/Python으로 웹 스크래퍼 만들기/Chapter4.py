@@ -55,7 +55,7 @@ days = ["Mon","Tue"] # list 대괄호 사용한다.
 days =("Mon","Tue") # tuple 소괄호 사용한다.
 
 days =("Mon","Tue")
-days # days.count index 사용가능함
+days # days.count index 사용가능하다.
 
 
 # 튜플은 불변하기 때문에 튜플을 만들면 그 내용을 변경할 수 없다.
