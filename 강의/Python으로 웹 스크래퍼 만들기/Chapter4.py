@@ -6,7 +6,7 @@
 print("nico".upper()) #대문자로 변경해주기
 # 결과 NICO
 
-print("nico".endswith("a")) #nico가 a로 끝나는가?
+print("nico".endswith("a")) #nico가 a로 끝나는지?
 # 결과 False
 # 함수가 독립적으로 사용된다면 '함수'라고 하지만, 데이터에 결합된 함수는 '메소드'라고 부른다.
 
