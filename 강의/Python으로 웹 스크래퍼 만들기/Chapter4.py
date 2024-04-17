@@ -3,7 +3,7 @@
 # 1. methods 
 # 데이터에 연결된 함수 , 데이터의 안에 존재한다. 소괄호()를 쓰면 실행한다는 뜻이다.
 
-print("nico".upper()) #대문자로 변경해주기
+print("nico".upper()) #대문자로 변경해준다.
 # 결과 NICO
 
 print("nico".endswith("a")) #nico가 a로 끝나는지?
